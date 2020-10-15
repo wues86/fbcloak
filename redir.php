@@ -32,7 +32,7 @@ $wait = 6000; // time to wait before redirection occurs, in milliseconds
 <?php echo"
 <script>
 		var delay = ".$wait.";
-		setTimeout(function(){ window.location = 'https://www.url.com/".$re."'; }, delay);
+		setTimeout(function(){ window.location = '".$re."'; }, delay);
 </script>
 ";?>
 
